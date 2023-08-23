@@ -1,0 +1,18 @@
+
+* No se puede instanciar.
+
+* Las clases no extienden de la interface, las clases implementan la interface.
+
+* Define una interface (firma de métodos), que tienen que implementar los objetos que la implementan.
+
+* ¿cuándo la utilizamos?
+  Cuando en nuestro modelo tenemos una clase abstracta que no necesite tener implementada una lógica de negocio. De esta forma nos
+  reservamos utilizar la herencia para cuando la necesitemos. En Java se puede heredar de una clase.
+
+* En Java no se puede extender de dos clases, solo de una; de esta forma logramos que un objeto se pueda comportar
+  como dos entidades distintas (una la clase que hereda y la otra la interface que implementa).
+
+*** El ejemplo que encontramos en este proyecto hace incapié en el último ítem. Las clases: Perro, Loro y PalomaDeMago pueden comportarse como Mascota o Vendible.
+  Contexto: Una veterinaria tiene en su interior las siguientes mascotas deambulando por allí, las misma son perros, gatos, loros y palomas de mago. Las que están
+  en venta (Vendible) son los loros, los perros y las palomas de mago; los gatos no están en venta pero si los cuida como al resto de las mismas que estan a la venta.
+  Diagrama de clases: Ver archivo: DiagramaDeClases.png en esta misma carpeta.
