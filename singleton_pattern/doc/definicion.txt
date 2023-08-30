@@ -1,0 +1,10 @@
+You cannot use the static keyword with a class unless it is an inner class. A static inner class is a
+nested class which is a static member of the outer class. It can be accessed without instantiating
+the outer class, using other static members. Just like static members, a static nested class does not have
+access to the instance variables and methods of the outer class.
+
+Traducción:
+No puedes usar la palabra static con una clase a menos que esta sea una inner class (clase interna). Una static
+inner class (clase estática interna) es una clase anidada la cual es un miembro static (estático) de la clase
+externa. Esta puede ser accedida sin instanciar la clase externa, usando otros miembros static. Como miembro
+estático, una clase estática anidada no tiene acceso a las variables y métodos de instancia de la clase externa.
