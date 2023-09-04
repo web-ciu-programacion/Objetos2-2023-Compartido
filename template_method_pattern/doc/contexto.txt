@@ -1,0 +1,35 @@
+
+En una empresa se desea calcular el sueldo de un empleado, se sabe que cada empleado tiene un fijo que puede
+variar; además, de cada uno se sabe la cantidad de días que se ausentó en el mes, estos dos datos pueden variar
+mes a mes en cada empleado.
+Hay dos tipos de empleados en la empresa, estos son los operarios y los vendedores. La forma en que se calcula el
+sueldo es la siguiente:
+Tienen un básico que depende del IPC mensual, que viene informado por un agente externo al momento de realizar el
+cálculo; entonces el básico se compone del fijo más el ajuste por IPC aplicado al mismo.
+La empresa además tiene muy en cuenta el presentismo de sus empleados, pero en este caso hace diferencia entre
+sus tipos de empleados. En el caso de los operarios, si faltan más de una vez al mes se les descuenta el 1% del
+básico por cada día ausente; si falta un día no se le aplican descuentos, pero si no registra ausencias tiene un
+premio del 2% del básico. Distinto es el caso de los vendedores, a los mismos se les exige que no se ausenten más de
+diez días, luego se les descuentan $100 por cada día ausente, y no tienen premio. En ambos casos a
+este monto se lo conoce como presentismo.
+Y por último se calculan los adicionales, que también difiere según el tipo de empleado. En el caso de los operarios
+se registran las horas extras mensuales, y cuando la cantidad de las mismas es mayor a 5, se abona el 3% del basico
+más (o menos) el presentismo. Con respecto a los vendedores se registran la cantidad de ventas al mes, y por cada una
+de ellas se abona el 10% del básico y presentismo.
+
+Segunda Parte:
+No tiene nada que ver con el Template Method, el objetivo de este punto es incorporar el concepto de como se puede
+agregar un.jar a un proyecto, con el fin de contar con un conjunto de clases que me son útiles y no tener que
+reinventar la rueda.
+
+Agregar el atributo nombre a un empleado, y permitir asignarle dicho nombre al mismo. Luego implementar el método:
+getNombreInverso(), el cuál retorna el nombre al revés, ejemplo: si el nombre es: "Lamadrid", debe retornar: "dirdamaL".
+
+Apache Commons:
+    URL: https://commons.apache.org/proper/commons-lang/download_lang.cgi
+    Dopwnload: commons-lang3-3.12.0-src.tar.gz
+    Descomprimir
+    Copiar: commons-lang3-3.12.0.jar a carpeta: lib del proyecto, crear la misma.
+    File -> Project Structure... -> Project Settings -> Libraries -> + -> buscar en el proyecto:
+    /lib/commons-lang3-3.12.0.jar y Ok.
+    Ahora puedo contar con todas las clases de la librería (.jar).

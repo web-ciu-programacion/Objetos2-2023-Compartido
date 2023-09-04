@@ -1,0 +1,4 @@
+Template Method:
+
+Propósito: Define en una operación el esqueleto del algoritmo, delegando en las subclases algunos de sus pasos. Permite
+que las subclases redefinan ciertos pasos de un algoritmo sin cambiar su estructura.
