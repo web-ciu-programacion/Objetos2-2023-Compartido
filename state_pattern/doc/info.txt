@@ -1,0 +1,4 @@
+El patrón extrae comportamientos relacionados con el estado, los coloca dentro de clases de estado separadas y fuerza 
+al objeto original a delegar el trabajo de una instancia de esas clases, en lugar de actuar por su cuenta.
+
+Primero dar con solo dos estados: Abierta y Cerrada, luego agregar el estado: Suspendida,

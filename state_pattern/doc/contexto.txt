@@ -1,0 +1,4 @@
+Un Banco atiende a las personas por Ventanilla, la misma puede estar abierta o cerrada, si dicha Ventanilla está 
+abierta la Persona es atendida, si la misma está Cerrada la Persona no es atendida. 
+Con este proceder surgieron reiteradas quejas de las personas mayores, entonces el Banco dispuso que la Ventanilla
+puede estar Suspendida, y en tal caso solo las personas mayores a 65 años deben ser atendidas.
