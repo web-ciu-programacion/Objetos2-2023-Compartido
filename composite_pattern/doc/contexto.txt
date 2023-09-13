@@ -1,0 +1,11 @@
+Un banco maneja tres tipos de cuentas, las mismas son: caja de ahorro, cuenta corriente y corporativa, nos
+interesa saber si el banco está en peligro de quiebra o no, esto es determinado por el siguiente calculo, si
+el balance del banco es negativo y este monto supera el 60% de sus reservas, entonces dicho banco se encuentra
+efectivamente en peligro de quiebra, caso contrario no. El balance es determinado por la suma de todos los saldos
+de las cuentas que posee el banco. Los saldos de las cuentas se calculan de la siguiente manera:
+Caja de ahorro: total de todos los movimientos, es una cuenta personal.
+Cuenta corriente: total de los movimientos negativos, también es una cuenta personal.
+Corporativa: Son cuentas que pertenecen a organizaciones, las mismas están formadas por otras cuentas (personal u
+otra corporativa), y su saldo se determina por el total de todos los saldos de dichas cuentas.
+
+Nada que ver con Composite, agregar una descripcion al banco y obtenerla al revés, si otra vez!!!
