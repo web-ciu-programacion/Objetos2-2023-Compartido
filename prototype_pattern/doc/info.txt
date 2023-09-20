@@ -1,0 +1,4 @@
+Vamos a hacer uso del patrón Prototype cuando queramos realizar un clonado de un objeto. 
+El Patrón Prototype, también puede ser usado cuando tenemos herencia entre nuestros objetos y 
+estos difieren en pocos o en ningún campo, para esos casos en los que necesitemos realizar copias 
+de los objetos padre podemos utilizar este patrón.
