@@ -1,0 +1,7 @@
+Se desea realizar el producto de dos números, para ello encontramos a 3 personas que lo realizan de manera 
+diferente, una persona solo sabe manejar numeros binarios, así que convirte el decimal a binario, realiza 
+el producto mediante sumas binarias y luego transforma este resultado binario a decimal; otra persona solo sabe 
+sumar, así que realiza el producto mediante sumas; y finalmente la última persona sabe las tablas de multiplicar, 
+así que realiza el producto.
+Codificar un programa para estos 3 tipos de resoluciones.
+¿cómo hago para agregar si una persona maneja hexadecimal?

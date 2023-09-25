@@ -1,0 +1,2 @@
+Define una familia de algoritmos, encapsula cada uno de ellos y los hace intercambiables. Permite que un 
+algoritmo varíe independientemente de los clientes que lo usan.
