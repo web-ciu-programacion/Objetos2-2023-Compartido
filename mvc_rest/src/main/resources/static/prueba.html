@@ -1,1 +1,33 @@
-Lamadrid
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+		
+	</head>
+	<body>
+		Lamadrid
+		<br/>
+		<a id="demo"></a>
+	</body>
+
+<script>
+	async function postData() {
+		let persona = {
+	      "nombre": "Pepe",
+	      "apellidos": "Sweet",
+	      "edad": 20
+		};
+	
+		try {
+			const response = await axios.post("http://localhost:8080/mvcrest/personas/agregar", persona);
+			console.log(response)
+			console.log("Request successful!");
+		} catch (error) {
+			if (error.response) {
+				console.log(error.reponse.status);
+	    	} else {
+				console.log(error.message);
+			}
+		}
+	}
+	postData();
+</script>
