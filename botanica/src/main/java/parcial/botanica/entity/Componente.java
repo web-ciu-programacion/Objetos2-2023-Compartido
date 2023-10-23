@@ -4,11 +4,11 @@ package parcial.botanica.entity;
  * Composite
  * Component
  */
-public abstract class Componente implements Prototype {
+public interface Componente extends Prototype {
 
-	public abstract Integer totalDeHojas();
+	public Integer totalDeHojas();
 	
-	public abstract Double cantidadDeClorofila();
+	public Double cantidadDeClorofila();
 
-	public abstract Prototype clone();
+	public Prototype clone();
 }

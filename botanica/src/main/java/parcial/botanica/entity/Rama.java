@@ -7,7 +7,7 @@ import java.util.Collection;
  * Composite
  * Composite
  */
-public class Rama extends Componente {
+public class Rama implements Componente {
 
 	private Collection<Componente> hijos;
 	

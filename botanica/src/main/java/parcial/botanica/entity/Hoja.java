@@ -4,7 +4,7 @@ package parcial.botanica.entity;
  * Composite
  * Leaf
  */
-public class Hoja extends Componente {
+public class Hoja implements Componente {
 
 	private Double superficie; // m2
 	private Double clorofilaEstimada; // umol/m2;
