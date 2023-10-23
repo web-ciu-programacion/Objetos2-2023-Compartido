@@ -1,0 +1,17 @@
+
+El patrón de diseño Visitor se utiliza para separar la lógica u operaciones que se pueden realizar sobre una estructura compleja.
+
+Link: https://refactoring.guru/es/design-patterns/visitor
+
+Primero:
+  El primer requerimiento es el de realizar un programa que dibuje figuras, en este caso soporta 
+  circulos y cuadrados.
+  Clases hasta aquí: Figura, Circulo, Cuadrado y Main.
+
+Segundo:
+  Se nos requiere que la información de un objeto Figura sea exportada en formato XML.
+  Implementamos: Visitor Pattern.
+
+Tercero:
+  Se nos requiere que la información de un objeto Figura sea exportada en formato JSON.
+  Extendemos implementación: Visitor Pattern.
