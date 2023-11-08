@@ -1,0 +1,29 @@
+
+Enunciado: 
+De un día para otro, depredadores invaden la tierra, al fin el ejercito tendrá que salir a trabajar, y no para matar idealistas esta vez. Cuando un 
+soldado ataca un depredador le genera un daño de 100 unidades, no importa que utilizó el soldado para atacarlo, aunque digamos un soldado argento 
+no tiene mucho para atacar, una navaja importada de China en el mejor de los casos, y bueno, cuando tuvieron armas las utilizaron contra su propio 
+pueblo....a comerla!. En fin, volviendo al tema, pero resulta que los depredadores pueden tener casco, entonces si un depredador tiene casco, el 
+daño que le genera un ataque es de 20 unidades menos que sino lo tuviera. También el depredador puede tener armadura, en este caso, al ser atacado 
+por un soldado, el daño que se le genera al mismo es de 40 unidades menos que sino lo tuviera.
+Realizar el diagrama de clases que simule el a77aque de un soldado a un depredador, retornando el daño generado al mismo.
+
+Orden de como explicar el patrón
+1 - Dar Enunciado para que lo resuelvan.
+2 - Exponer el problema que se solucione con herencia. DepredadorConCasco hereda de Depredador, DepredadorConArmadura hereda de Depredador.
+    Problema: ¿y si tiene ambos? generaríamos otra clase. ¿y si surge un nuevo accesorio protector? ejemplo escudo.
+    Tendríamos un sinfin de herencias, recordando que los lenguajes comerciales no soportan multiple herencia.
+    Herencia vs. Composición
+    Principal ventaja: Herencia es estático, mientras composición es dinámico.
+3 - Dar el Decorator Estrucura del patrón
+4 - Implementar Decorator en la resolución del problema.
+5 - Agregar el Escudo.
+
+Link: 
+    https://refactoring.guru/es/design-patterns/decorator
+
+Hacer un ejercicio con un pancho
+pancho + mayonesa
+pancho + mayonesa + mostaza
+pancho + mayonesa + mostaza + papas pay
+y que se calcule el costo final del pancho, cada extra son unos pesos más.
